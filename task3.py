@@ -1,7 +1,5 @@
 import csv
 import json
-import nltk
-import gensim
 from gensim.models import Word2Vec
 from nltk.tokenize import sent_tokenize, word_tokenize
 
