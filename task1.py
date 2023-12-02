@@ -20,9 +20,9 @@ total_count = 0
 
 # Iterate over the dataset
 for item in data:
-    question_word = item['question_word']
-    guess_words = item['guess_words']
-    correct_word = item['correct_word']
+    question_word = item['question']
+    guess_words = item['choices']
+    correct_word = item['answer']
 
     if question_word in model:
         similarities = [(word, model.similarity(question_word, word)) for word in guess_words if word in model]
@@ -40,7 +40,7 @@ for item in data:
         details_writer.writerow([question_word, correct_word, '', 'guess'])
 
 # Write the analysis
-analysis_writer.writerow(['word2vec-google-news-300', len(model.vocab), correct_count, total_count, correct_count / total_count])
+analysis_writer.writerow(['word2vec-google-news-300', len(model.key_to_index), correct_count, total_count, correct_count / total_count])
 
 # Close the output files
 details_file.close()
