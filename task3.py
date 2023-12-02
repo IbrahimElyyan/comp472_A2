@@ -19,12 +19,13 @@ with open('synonym.json', 'r') as f:
 
 # Preprocess the corpus
 corpus = []
-for book_filename in ['book1.txt', 'book2.txt', 'book3.txt', 'book4.txt', 'book5.txt']:  
-    with open(book_filename, 'r') as f:
+for book_filename in ['book1.txt', 'book2.txt', 'book3.txt', 'book4.txt', 'book5.txt']: 
+    with open(book_filename, 'r', encoding='utf-8') as f:
         book_text = f.read()
         sentences = sent_tokenize(book_text)
         tokenized_sentences = [word_tokenize(sentence) for sentence in sentences]
         corpus.extend(tokenized_sentences)
+
 
 # Iterate over the parameters
 for params in parameters:
