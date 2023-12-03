@@ -37,8 +37,8 @@ for params in parameters:
     details_writer = csv.writer(details_file)
     analysis_writer = csv.writer(analysis_file)
 
-    correct_count = 0
-    total_count = 0
+    c = 0
+    v = 0
 
     # Iterate over the dataset
     for item in data:
@@ -49,10 +49,10 @@ for params in parameters:
         if question_word in model.wv:
             similarities = [(word, model.wv.similarity(question_word, word)) for word in guess_words if word in model.wv]
             if similarities:
-                total_count += 1
+                v += 1
                 guess_word, _ = max(similarities, key=lambda x: x[1])
                 if guess_word == correct_word:
-                    correct_count += 1
+                    c += 1
                     details_writer.writerow([question_word, correct_word, guess_word, 'correct'])
                 else:
                     details_writer.writerow([question_word, correct_word, guess_word, 'wrong'])
@@ -62,7 +62,7 @@ for params in parameters:
             details_writer.writerow([question_word, correct_word, '', 'guess'])
 
     # Write the analysis
-    analysis_writer.writerow([model_name, len(model.wv.key_to_index), correct_count, total_count, correct_count / total_count if total_count > 0 else 0])
+    analysis_writer.writerow([model_name, len(model.wv.key_to_index), c, v, c / v if v > 0 else 0])
 
     # Close the output files
     details_file.close()
