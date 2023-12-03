@@ -24,8 +24,8 @@ make,earn,print,wrong
 often,frequently,frequently,correct
 easygoing,relaxed,,guess
 debate,argument,,guess
-narrow,thin,clear,wrong
-arranged,planned,planned,correct
+narrow,thin,thin,correct
+arranged,planned,studied,wrong
 infinite,limitless,relative,wrong
 showy,striking,,guess
 levied,imposed,,guess
@@ -47,7 +47,7 @@ essentially,basically,possibly,wrong
 keen,sharp,simple,wrong
 situated,positioned,isolated,wrong
 principal,major,numerous,wrong
-slowly,gradually,rarely,wrong
+slowly,gradually,gradually,correct
 built,constructed,constructed,correct
 tasks,jobs,,guess
 unlikely,improbable,,guess
@@ -55,7 +55,7 @@ halfheartedly,apathetically,,guess
 annals,chronicles,homes,wrong
 wildly,furiously,,guess
 hailed,acclaimed,,guess
-command,mastery,love,wrong
+command,mastery,observation,wrong
 concocted,devised,,guess
 prospective,potential,,guess
 generally,broadly,accurately,wrong
@@ -70,9 +70,9 @@ feasible,possible,,guess
 expeditiously,rapidly,,guess
 percentage,proportion,,guess
 terminated,ended,ended,correct
-uniform,alike,hard,wrong
+uniform,alike,complex,wrong
 figure,solve,express,wrong
-sufficient,enough,valuable,wrong
+sufficient,enough,enough,correct
 fashion,manner,manner,correct
 marketed,sold,,guess
 bigger,larger,,guess

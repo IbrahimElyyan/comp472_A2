@@ -1,7 +1,7 @@
 enormously,tremendously,decidedly,wrong
 provisions,stipulations,,guess
 haphazardly,randomly,,guess
-prominent,conspicuous,conspicuous,correct
+prominent,conspicuous,ancient,wrong
 zenith,pinnacle,,guess
 flawed,imperfect,,guess
 urgently,desperately,,guess
@@ -13,7 +13,7 @@ solitary,alone,alone,correct
 hasten,accelerate,,guess
 perseverance,endurance,skill,wrong
 fanciful,imaginative,,guess
-showed,demonstrated,repeated,wrong
+showed,demonstrated,demonstrated,correct
 constantly,continually,continually,correct
 issues,subjects,subjects,correct
 furnish,supply,supply,correct
@@ -26,7 +26,7 @@ easygoing,relaxed,,guess
 debate,argument,,guess
 narrow,thin,thin,correct
 arranged,planned,planned,correct
-infinite,limitless,unusual,wrong
+infinite,limitless,relative,wrong
 showy,striking,,guess
 levied,imposed,,guess
 deftly,skillfully,,guess
@@ -46,7 +46,7 @@ physician,doctor,doctor,correct
 essentially,basically,possibly,wrong
 keen,sharp,simple,wrong
 situated,positioned,isolated,wrong
-principal,major,exceptional,wrong
+principal,major,numerous,wrong
 slowly,gradually,rarely,wrong
 built,constructed,constructed,correct
 tasks,jobs,,guess
@@ -72,7 +72,7 @@ percentage,proportion,,guess
 terminated,ended,ended,correct
 uniform,alike,complex,wrong
 figure,solve,express,wrong
-sufficient,enough,valuable,wrong
+sufficient,enough,enough,correct
 fashion,manner,manner,correct
 marketed,sold,,guess
 bigger,larger,,guess

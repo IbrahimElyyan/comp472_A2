@@ -5,11 +5,12 @@ import gensim.downloader
 # Define the models to use
 models = [
     'word2vec-google-news-300',
-    'glove-twitter-25',
-    'glove-twitter-100',
+    'glove-twitter-50',
     'glove-wiki-gigaword-50',
+    'glove-twitter-100',
     'glove-wiki-gigaword-100'
 ]
+
 
 # Load the Synonym Test dataset
 with open('synonym.json', 'r') as f:

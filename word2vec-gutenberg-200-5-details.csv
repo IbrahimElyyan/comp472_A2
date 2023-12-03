@@ -1,7 +1,7 @@
 enormously,tremendously,decidedly,wrong
 provisions,stipulations,,guess
 haphazardly,randomly,,guess
-prominent,conspicuous,ancient,wrong
+prominent,conspicuous,conspicuous,correct
 zenith,pinnacle,,guess
 flawed,imperfect,,guess
 urgently,desperately,,guess
@@ -15,7 +15,7 @@ perseverance,endurance,skill,wrong
 fanciful,imaginative,,guess
 showed,demonstrated,repeated,wrong
 constantly,continually,rapidly,wrong
-issues,subjects,training,wrong
+issues,subjects,subjects,correct
 furnish,supply,supply,correct
 costly,expensive,popular,wrong
 recognized,acknowledged,,guess
@@ -32,7 +32,7 @@ levied,imposed,,guess
 deftly,skillfully,,guess
 distribute,circulate,research,wrong
 discrepancies,differences,,guess
-prolific,productive,capable,wrong
+prolific,productive,productive,correct
 unmatched,unequaled,,guess
 peculiarly,uniquely,partly,wrong
 hue,color,,guess
@@ -55,7 +55,7 @@ halfheartedly,apathetically,,guess
 annals,chronicles,homes,wrong
 wildly,furiously,,guess
 hailed,acclaimed,,guess
-command,mastery,love,wrong
+command,mastery,observation,wrong
 concocted,devised,,guess
 prospective,potential,,guess
 generally,broadly,accurately,wrong
@@ -65,12 +65,12 @@ tranquillity,peacefulness,happiness,wrong
 dissipate,disperse,,guess
 primarily,chiefly,,guess
 colloquial,conversational,,guess
-resolved,settled,settled,correct
+resolved,settled,examined,wrong
 feasible,possible,,guess
 expeditiously,rapidly,,guess
 percentage,proportion,,guess
 terminated,ended,ended,correct
-uniform,alike,hard,wrong
+uniform,alike,complex,wrong
 figure,solve,divide,wrong
 sufficient,enough,enough,correct
 fashion,manner,manner,correct
